@@ -28,6 +28,7 @@
         "prettier-eslint": "^8.8.2"
     },
     "devDependencies": {
+        "blanket": "^1.2.3",
         "istanbul": "^0.4.5",
         "istanbul-coveralls": "^1.0.3",
         "mocha": "^6.1.4",

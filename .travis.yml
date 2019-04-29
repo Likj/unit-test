@@ -7,5 +7,9 @@ brancher:
    - "dev"
    - "tags"
    - "master"
+install:
+  - "yarn"
+  - "yarn --global add codecov"
 script:
-  - "npm run cover"
+  - "npm run test && npm run cover"
+  - "codecov"
