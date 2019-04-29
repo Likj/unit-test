@@ -9,7 +9,7 @@ brancher:
    - "master"
 install:
   - "yarn"
-  - "yarn --global add codecov"
+  - "yarn global add codecov"
 script:
   - "npm run test && npm run cover"
   - "codecov"
