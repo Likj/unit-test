@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Likj/unit-test.svg?branch=master)](https://travis-ci.org/Likj/unit-test)
+[![codecov](https://codecov.io/gh/Likj/unit-test/branch/master/graph/badge.svg)](https://codecov.io/gh/Likj/unit-test)
 ---
 ## assert断言库
 ---
