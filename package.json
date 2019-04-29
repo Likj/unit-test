@@ -1,0 +1,46 @@
+{
+    "name": "unit-test",
+    "version": "1.0.0",
+    "description": "assert jest ",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --recursive   ./src/test/test-mocha-test.js  --reporter doc | cat docs/head.html - docs/tail.html > docs/test.html",
+        "test2": "mocha  -R mocha-tcov-reporter --recursive   ./src/test/test-mocha-test.js",
+        "cover": "istanbul cover _mocha --recursive ./src/test/test-mocha-test.js "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Likj/unit-test.git"
+    },
+    "keywords": [
+        "unit",
+        "test"
+    ],
+    "author": "likeju",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Likj/unit-test/issues"
+    },
+    "homepage": "https://github.com/Likj/unit-test#readme",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^5.16.0",
+        "prettier-eslint": "^8.8.2"
+    },
+    "devDependencies": {
+        "istanbul": "^0.4.5",
+        "istanbul-coveralls": "^1.0.3",
+        "mocha": "^6.1.4",
+        "mocha-tcov-reporter": "^1.1.6"
+    },
+    "blanket": {
+        "pattern": "/src/util.js",
+        "data-cover-never": "/node_modules/"
+    },
+    "config": {
+        "blanket": {
+            "pattern": "/src/",
+            "data-cover-never": "/node_modules/"
+        }
+    }
+}
