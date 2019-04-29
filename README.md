@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Likj/unit-test.svg?branch=master)](https://travis-ci.com/Likj/unit-test)
+---
 ## assert断言库
 ---
 assert 是node 内置的模块；可在node环境运行  用来断言测试的一个模块  常见方法见node文档 
@@ -24,4 +26,8 @@ assert的特点是 只有报错的时候 会看到异常输出，通过的时候
 2. 但是chai也没有文档输出，只有在报错的情况 有抛出异常 对于单测的结果 没有输出结果
 3. mocha 是一个提供 描述文档的高级函数库，里面可以运行 常见的 断言库，等；提供语意化的 描述，并且可以输入doc html 等多种格式
 4. istanbul 是一个对单测 进行覆盖率检查 的一个 模块，已经不再维护，可以输出 是否 覆盖全面，从函数，分支，行，
+---
+5.circleci是一个持续继承的工具，还为接入使用
+---
+6. 先用 travis-ci工具;
 
