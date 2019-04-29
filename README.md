@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Likj/unit-test.svg?branch=master)](https://travis-ci.com/Likj/unit-test)
+[![Build Status](https://travis-ci.org/Likj/unit-test.svg?branch=master)](https://travis-ci.org/Likj/unit-test)
 ---
 ## assert断言库
 ---

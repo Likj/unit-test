@@ -8,10 +8,34 @@
     <title>Document</title>
 </head>
 
-<body>
-
-  0 passing (0ms)
-
+<body>    <section class="suite">
+      <h1>unit test &#x6A21;&#x5757;</h1>
+      <dl>
+        <section class="suite">
+          <h1>add&#x65B9;&#x6CD5;&#x6D4B;&#x65AD;&#x8A00;</h1>
+          <dl>
+            <dt>5 = 6 = 7 &#x5E94;&#x8BE5;&#x7B49;&#x4E8E;18</dt>
+            <dd><pre><code>assert.equal(add(5, 6, 7), 18)</code></pre></dd>
+          </dl>
+        </section>
+        <section class="suite">
+          <h1>mul&#x65B9;&#x6CD5;&#x7684;&#x65AD;&#x8A00;</h1>
+          <dl>
+            <dt>5 * 6 * 7 * 8 &#x5E94;&#x8BE5;&#x7B49;&#x4E8E;1680</dt>
+            <dd><pre><code>mul(5, 6, 7, 8).should.equal(1680)</code></pre></dd>
+          </dl>
+        </section>
+        <section class="suite">
+          <h1>testFn&#x65B9;&#x6CD5;&#x5206;&#x4E4B;&#x7684;&#x65AD;&#x8A00;</h1>
+          <dl>
+            <dt>&#x4F20;&#x5165;&#xFF0C;5&#xFF0C; 4  &#x5E94;&#x8BE5;&#x8FDB;&#x5165;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x652F;</dt>
+            <dd><pre><code>expect(testFn(5, 4)).equal(1);</code></pre></dd>
+            <dt>&#x4F20;&#x5165;&#xFF0C;4&#xFF0C; 5  &#x5E94;&#x8BE5;&#x8FDB;&#x5165;&#x7B2C;&#x4E8C;&#x4E2A;&#x5206;&#x652F;</dt>
+            <dd><pre><code>expect(testFn(4, 5)).equal(9);</code></pre></dd>
+          </dl>
+        </section>
+      </dl>
+    </section>
 </body>
 
 
