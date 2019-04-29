@@ -7,5 +7,5 @@ brancher:
    - "dev"
    - "tags"
    - "master"
-scripts:
+script:
   - "npm run cover"
